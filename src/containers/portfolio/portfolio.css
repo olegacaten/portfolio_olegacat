@@ -1,0 +1,21 @@
+.portfolio{
+    margin-top: 3rem;
+}
+
+.portfolio__content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+@media  (max-width: 1150px) {
+    .portfolio__content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+      }
+}

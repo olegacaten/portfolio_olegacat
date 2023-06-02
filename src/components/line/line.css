@@ -1,0 +1,31 @@
+.line_style hr {
+  line-height: 1.5em;
+  position: relative;
+  border: 0;
+  color: black;
+  text-align: left;
+  height: 0.3em;
+  font-size: 16px;
+  font-family: var(--font-family);
+  background-color: #ffffff00;
+  &:before {
+    content: "";
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: absolute;
+    display: inline-block;
+    color: black;
+    left: 10%;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5em;
+    background-color: #ffffff;
+  }
+}

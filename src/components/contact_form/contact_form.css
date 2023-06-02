@@ -1,0 +1,57 @@
+.footer__content__right-part {
+    min-width: 300px;
+    width: 100%;
+  }
+
+
+  
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgb(166, 166, 166);
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  #message  {
+    resize: none;
+    min-height: 250px;
+  }
+  
+  .btn_send button {
+    flex: 0.6;
+    width: 50%;
+    min-height: 40px;
+    max-height: 60px;
+    max-width: 277px;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(157, 157, 157);
+  
+    color: #fff;
+    padding: 0 1rem;
+    border-radius: 5px;
+  
+    margin-top: 1.5rem;
+   
+  
+  }
+  .btn_send button:hover{
+    box-shadow: rgba(141, 141, 141, 0.382) 0px 15px 30px;
+   }
+  
+   .btn_send button:active{
+    border: none;
+    color: #aeaeae;
+    background-color: #3c3c3c;
+   }
+  
